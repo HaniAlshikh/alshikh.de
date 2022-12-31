@@ -1,0 +1,4 @@
+public/
+*.lock
+style.sass_*
+resources/_gen/

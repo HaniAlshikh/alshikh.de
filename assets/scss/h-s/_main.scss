@@ -1,0 +1,36 @@
+img {
+  display: block;
+  max-width: 100%;
+
+  &.left {
+    margin-right: auto;
+  }
+
+  &.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &.right {
+    margin-left: auto;
+  }
+  &.circle {
+    border-radius: 50%;
+    max-width: 25%;
+    margin: auto;
+  }
+  &.hero-logo {
+    max-width: 50%;
+    margin: auto;
+  }
+}
+
+.theme-toggle-hero {
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 25px;
+  margin: 0 0 0 25px;
+  z-index: 9999;
+  cursor: pointer;
+}
